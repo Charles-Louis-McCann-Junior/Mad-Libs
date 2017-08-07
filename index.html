@@ -1,0 +1,62 @@
+<DOCTYPE HTML>
+    
+	<HTML>
+
+    <HEAD>
+
+        <TITLE>
+            Mad Libs
+        </TITLE>
+		
+	</HEAD>
+	
+	<STYLE>
+	#mad
+	{
+				font-size: 100px;
+                color: yellow;
+	}
+	
+	
+	  body {
+                background-color: #EA2B1F;
+            }
+			
+		H1 
+		{
+				font-size: 100px;
+                color: yellow;
+		}		
+	</STYLE>
+	
+		<BODY>
+		
+		<H1>
+		Mad Libs
+		</H1>
+		
+	
+		
+		<p id = "mad">
+
+		</p>
+		<script>
+		var cool = "CLM Electric will shock you with his prices.";
+		var ten = "CLM will complete the job as fast as possible.";
+		var shocking = "Sometimes in the summer his son will come to help out.";
+		var four = 4;
+		var eleven = 11;
+		var name = prompt("Tell me your name");
+		var verb = prompt("Tell me a verb");
+		var noun = prompt("Tell me a noun");
+		var randomname = prompt("Tell me a name");
+		var verb2 = prompt("Tell me a verb");
+		var story1 = " Once ";
+		var story2 = " was ";
+		var story3 = " to a ";
+		var story4 = " next to you to the "; 
+		var story5 = " is ";
+		var finalstory = story1 + name + story2 + verb + story3 + noun + " " + randomname + story5 + verb2 + story4 + noun + ".";
+		var element = document.getElementById("mad");
+		element.innerHTML = finalstory
+		</script>
